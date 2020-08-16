@@ -4,3 +4,4 @@
 sh ~/miniconda.sh -b -p /vol/scratch/guy/miniconda
 guy_python -m pip install ipykernel
 #guy_python -m ipykernel install --user --name guy-python
+guy_conda install -c conda-forge ipywidgets
